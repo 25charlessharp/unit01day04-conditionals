@@ -11,9 +11,13 @@ public class Quadratic {
             }else{
                 double d = (-b + Math.sqrt(b*b + -4*a*c))/2*a;
                 double e = (-b - Math.sqrt(b*b + -4*a*c))/2*a;
-    
-                System.out.println("The first answer is " + d );
-                System.out.println("The second answer is "+ e);
+                if (d < 0){
+                    System.out.println("No Solution");
+                }else {
+                    System.out.println("The first answer is " + d );
+                    System.out.println("The second answer is "+ e);
+                }
+                
             }
     }
         }
