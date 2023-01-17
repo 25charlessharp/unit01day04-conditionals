@@ -1,6 +1,7 @@
+// good
 public class RollLoadedDie {
     public static void main(String[] args) {
-        Double test = Math.random();
+        double test = Math.random();
         
         if (test <= 0.125){
             System.out.println("You rolled a one");
